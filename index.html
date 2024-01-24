@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top">
+      <div class="head">
+        <h2>Weather Forecast</h2>
+      </div>
+      <div class="center">
+        <input type="text" placeholder="Search for city" / class="text_area">
+        <button type="submit" class="submit_btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="blury_effect back"></div>
+      <div class="display_weather front">
+        <div class="city">
+          <p>CITY</p>
+        </div>
+        <p class="temp">0.00 °C</p>
+        <div class="type_of_weather">
+          <p class="weatherType">Rainy</p>
+          <img src="img/weather.png" alt="loading" class="image" />
+        </div>
+        <div class="items">
+          <p class="l">
+            Wind Speed <br />
+            <span class="wind_data">0.00</span>m/s
+          </p>
+          <p class="l">Humidity <br /><span class="humid">0%</span></p>
+          <p class="l">
+            Clouds <br />
+            <span class="cloud">0%</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
